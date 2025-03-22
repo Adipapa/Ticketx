@@ -27,7 +27,7 @@ const Home = () => {
     <div className="p-4">
       {/* Search Bar */}
       <div className="flex justify-between items-center bg-white p-3 rounded-md shadow-md">
-        <h1 className="font-bold text-lg">QCS</h1>
+        <h1 className="font-bold text-lg">TicketX</h1>
         <input
           type="text"
           placeholder="Search events..."
