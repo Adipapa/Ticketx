@@ -12,6 +12,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/events" element={<Events />} />
         <Route path="/redeem" element={<TicketRedemption />} />
+        <Route path="/purchase/:id" element={<TicketPurchase />} />
+
       </Routes>
     </Router>
   );
